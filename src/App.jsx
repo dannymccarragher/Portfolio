@@ -4,7 +4,7 @@ import Research from './components/Research'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import { Dock, DockIcon } from './components/ui/dock'
+import SocialDock from './components/SocialDock'
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       <Research />
       <Skills />
       <Projects />
-      <Dock />
+      <SocialDock />
     </>
   )
 }
