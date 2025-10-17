@@ -2,6 +2,7 @@ import Intro from './components/Intro'
 import Education from './components/Education'
 import Research from './components/Research'
 import Experience from './components/Experience'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Education />
       <Experience />
       <Research />
+      <Skills />
     </>
   )
 }
