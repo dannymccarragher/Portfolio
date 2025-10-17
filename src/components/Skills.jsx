@@ -1,6 +1,6 @@
 
 
-import { siJavascript, siTypescript, siReact, siNodedotjs, siPython, siOpenjdk, siGithub, siNextdotjs, siExpress, siPostgresql, siMariadb, siDocker, siGit, siHtml5, siElectron, siMysql } from 'simple-icons/icons';
+import { siJavascript, siTypescript, siReact, siNodedotjs, siPython, siOpenjdk, siGithub, siNextdotjs, siExpress, siPostgresql, siMariadb, siDocker, siGit, siElectron, siMysql } from 'simple-icons';
 
 const Skills = () => {
     const skills = [
