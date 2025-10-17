@@ -1,14 +1,22 @@
 import Intro from './components/Intro'
 import Education from './components/Education'
 import Research from './components/Research'
+import Experience from './components/Experience'
 
 function App() {
 
   return (
     <>
-    <Intro />
-    <Education />
-    <Research />
+      {/* Animated Starfield Background */}
+      <div className="stars"></div>
+      <div className="shooting-star"></div>
+      <div className="shooting-star"></div>
+      <div className="shooting-star"></div>
+
+      <Intro />
+      <Education />
+      <Experience />
+      <Research />
     </>
   )
 }
