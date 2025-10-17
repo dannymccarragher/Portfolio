@@ -22,7 +22,7 @@ const Intro = () => {
 
             <h2 style={{ margin: '0 0 0.3rem 0', textAlign: 'left' }}>About</h2>
             <p style={{ margin: '0 0 1rem 0', textAlign: 'left' }}>
-                Software Engineering student at Green River College with a passion for building efficient, user-focused applications. I enjoy working on full-stack projects, exploring data analytics, and collaborating with others to solve meaningful problems. Outside of coding, I spend my time coaching hockey and staying active, always looking for ways to grow both personally and professionally.
+                Software Development student at Green River College with a passion for building efficient, user-focused applications. I enjoy working on full-stack projects, exploring data analytics, and collaborating with others to solve meaningful problems. Outside of coding, I spend my time coaching hockey and staying active, always looking for ways to grow both personally and professionally.
             </p>
         </div>
     )

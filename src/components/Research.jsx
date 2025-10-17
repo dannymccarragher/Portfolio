@@ -30,9 +30,47 @@ const Research = () => {
                     fontSize: '0.9em',
                     color: 'rgba(255, 255, 255, 0.7)',
                     fontStyle: 'italic'
+                }}>In Collaboration with The Ohio State University</p>
+
+                <p style={{
+                    margin: '0 0 0.8rem 0',
+                    fontSize: '0.9em',
+                    color: 'rgba(255, 255, 255, 0.7)',
+                    fontStyle: 'italic'
                 }}>
                     Technologies: React, Next.js, Docker, Maven, Java, JavaCV, REST API, Postman
                 </p>
+
+                <div style={{ marginBottom: '0.8rem' }}>
+                    <a
+                        href="https://github.com/Jameson789/salamander-next"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '0.5rem',
+                            padding: '0.5rem 1rem',
+                            backgroundColor: 'rgba(100, 108, 255, 0.2)',
+                            color: '#646cff',
+                            textDecoration: 'none',
+                            borderRadius: '6px',
+                            fontSize: '0.9em',
+                            fontWeight: '500',
+                            border: '1px solid rgba(100, 108, 255, 0.3)',
+                            transition: 'all 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.target.style.transform = 'translateY(-1px)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.target.style.transform = 'translateY(0)';
+                        }}
+                    >
+                        <span>🔗</span>
+                        <span>View Project</span>
+                    </a>
+                </div>
 
                 <ul style={{
                     margin: '0',
