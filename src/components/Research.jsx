@@ -1,3 +1,5 @@
+import { siGithub } from 'simple-icons';
+
 const Research = () => {
 
     return (
@@ -67,8 +69,16 @@ const Research = () => {
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
-                        <span>🔗</span>
-                        <span>View Project</span>
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill={`#${siGithub.hex}`}
+                            style={{ marginRight: '0.3rem' }}
+                        >
+                            <path d={siGithub.path} />
+                        </svg>
+                        <span>GitHub</span>
                     </a>
                 </div>
 
