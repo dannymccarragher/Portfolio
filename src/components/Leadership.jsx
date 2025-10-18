@@ -59,8 +59,8 @@ const Leadership = () => {
                     }}>
                         <div style={{
                             display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'space-between',
+                            flexDirection: 'column',
+                            gap: '0.8rem',
                             marginBottom: '1rem'
                         }}>
                             <div>
@@ -88,7 +88,8 @@ const Leadership = () => {
                                 backgroundColor: 'rgba(255, 255, 255, 0.1)',
                                 padding: '0.3rem 0.7rem',
                                 borderRadius: '6px',
-                                border: '1px solid rgba(255, 255, 255, 0.2)'
+                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                alignSelf: 'flex-start'
                             }}>
                                 {activity.date}
                             </div>
