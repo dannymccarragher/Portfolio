@@ -5,6 +5,7 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import SocialDock from './components/SocialDock'
+import Resume from './components/Resume'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Projects />
       <SocialDock />
+      <Resume />
     </>
   )
 }

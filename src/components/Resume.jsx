@@ -1,7 +1,6 @@
-import { siGithub } from 'simple-icons';
+import { File } from 'lucide-react';
 
-const Research = () => {
-
+const Resume = () => {
     return (
         <div style={{
             maxWidth: '800px',
@@ -9,10 +8,10 @@ const Research = () => {
             padding: '0.5rem 1rem',
             textAlign: 'left'
         }}>
-            <h2 style={{ margin: '0 0 0.8rem 0', textAlign: 'left', fontSize: '1.5em', fontWeight: '600' }}>Research</h2>
+            <h2 style={{ margin: '0 0 1.2rem 0', textAlign: 'left', fontSize: '1.5em', fontWeight: '600' }}>Resume</h2>
 
             <div style={{
-                marginBottom: '1.5rem',
+                marginBottom: '8rem',
                 padding: '2rem',
                 background: 'linear-gradient(135deg, rgba(100, 108, 255, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%)',
                 borderRadius: '16px',
@@ -35,36 +34,62 @@ const Research = () => {
                     position: 'relative',
                     zIndex: 1
                 }}>
-                    <h3 style={{
-                        margin: '0 0 0.5rem 0',
-                        fontSize: '1.2em',
-                        fontWeight: '600',
-                        color: 'white'
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '1rem',
+                        marginBottom: '1.5rem'
                     }}>
-                        Salamander Tracker
-                    </h3>
+                        <div style={{
+                            width: '60px',
+                            height: '60px',
+                            borderRadius: '12px',
+                            background: 'linear-gradient(135deg, #646cff 0%, #764ba2 100%)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '1.5rem',
+                            boxShadow: '0 4px 15px rgba(100, 108, 255, 0.3)'
+                        }}>
+                            <File />
+                        </div>
+                        <div>
+                            <h3 style={{
+                                margin: '0 0 0.3rem 0',
+                                fontSize: '1.3em',
+                                fontWeight: '600',
+                                color: 'white'
+                            }}>
+                                Resume
+                            </h3>
+                            <p style={{
+                                margin: '0',
+                                fontSize: '0.9em',
+                                color: 'rgba(255, 255, 255, 0.7)'
+                            }}>
+                                PDF Document • Updated 2025
+                            </p>
+                        </div>
+                    </div>
 
                     <p style={{
-                        margin: '0 0 0.8rem 0',
-                        fontSize: '0.9em',
-                        color: 'rgba(255, 255, 255, 0.7)',
-                        fontStyle: 'italic'
-                    }}>In Collaboration with The Ohio State University</p>
-
-                    <p style={{
-                        margin: '0 0 0.8rem 0',
-                        fontSize: '0.9em',
-                        color: 'rgba(255, 255, 255, 0.7)',
-                        fontStyle: 'italic'
+                        margin: '0 0 1.5rem 0',
+                        fontSize: '1em',
+                        color: 'rgba(255, 255, 255, 0.9)',
+                        lineHeight: '1.6'
                     }}>
-                        Technologies: React, Next.js, Docker, Maven, Java, JavaCV, REST API, Postman
+                        Resume featuring my work experience, technical skills,
+                        educational background, and professional achievements.
                     </p>
 
-                    <div style={{ marginBottom: '0.8rem' }}>
+                    <div style={{
+                        display: 'flex',
+                        gap: '1rem',
+                        alignItems: 'center'
+                    }}>
                         <a
-                            href="https://github.com/Jameson789/salamander-next"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="/resume.pdf"
+                            download
                             style={{
                                 display: 'inline-flex',
                                 alignItems: 'center',
@@ -90,37 +115,13 @@ const Research = () => {
                                 e.target.style.boxShadow = '0 4px 20px rgba(100, 108, 255, 0.3)';
                             }}
                         >
-                            <svg
-                                width="16"
-                                height="16"
-                                viewBox="0 0 24 24"
-                                fill={`#${siGithub.hex}`}
-                                style={{ marginRight: '0.3rem' }}
-                            >
-                                <path d={siGithub.path} />
-                            </svg>
-                            <span>GitHub</span>
+                            <span>Download Resume</span>
                         </a>
                     </div>
-
-                    <ul style={{
-                        margin: '0',
-                        padding: '0 0 0 1rem',
-                        fontSize: '0.95em',
-                        color: 'rgba(255, 255, 255, 0.8)',
-                        lineHeight: '1.5'
-                    }}>
-                        <li style={{ marginBottom: '0.5rem' }}>
-                            Developed a full-stack video processing application using Next.js and React for tracking salamander movement through centroid detection and coordinate output.
-                        </li>
-                        <li style={{ marginBottom: '0.5rem' }}>
-                            Processes video frames using image binarization and graph search algorithms to find connected pixels, identifying the largest matching region and its centroid, with a RESTful API for video processing.
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Research;
+export default Resume;
