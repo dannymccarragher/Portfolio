@@ -90,10 +90,19 @@ const SocialDock = () => {
             height: '48px',
             borderRadius: '50%',
             transition: 'transform 0.2s ease',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            position: 'relative'
           }}
-          onMouseEnter={(e) => e.target.style.transform = 'scale(1.1)'}
-          onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'scale(1.1)'
+              const tooltip = e.currentTarget.querySelector('.tooltip')
+              if (tooltip) tooltip.style.opacity = '1'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'scale(1)'
+              const tooltip = e.currentTarget.querySelector('.tooltip')
+              if (tooltip) tooltip.style.opacity = '0'
+            }}
           >
             <a
               href={item.href}
@@ -118,9 +127,28 @@ const SocialDock = () => {
             >
               <item.icon style={{ width: '16px', height: '16px' }} />
             </a>
+            <div className="tooltip" style={{
+              position: 'absolute',
+              bottom: '60px',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              backgroundColor: 'rgba(0, 0, 0, 0.8)',
+              color: 'white',
+              padding: '6px 12px',
+              borderRadius: '6px',
+              fontSize: '12px',
+              fontWeight: '500',
+              whiteSpace: 'nowrap',
+              opacity: '0',
+              transition: 'opacity 0.2s ease',
+              pointerEvents: 'none',
+              zIndex: 1001
+            }}>
+              {item.label}
+            </div>
           </div>
         ))}
-        
+
         {/* Separator */}
         <div style={{
           width: '1px',
@@ -129,7 +157,7 @@ const SocialDock = () => {
           margin: '0 8px',
           flexShrink: 0
         }}></div>
-        
+
         {Object.entries(DATA.contact.social).map(([name, social]) => (
           <div key={name} style={{
             display: 'flex',
@@ -139,10 +167,19 @@ const SocialDock = () => {
             height: '48px',
             borderRadius: '50%',
             transition: 'transform 0.2s ease',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            position: 'relative'
           }}
-          onMouseEnter={(e) => e.target.style.transform = 'scale(1.1)'}
-          onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'scale(1.1)'
+              const tooltip = e.currentTarget.querySelector('.tooltip')
+              if (tooltip) tooltip.style.opacity = '1'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'scale(1)'
+              const tooltip = e.currentTarget.querySelector('.tooltip')
+              if (tooltip) tooltip.style.opacity = '0'
+            }}
           >
             <a
               href={social.url}
@@ -165,6 +202,25 @@ const SocialDock = () => {
             >
               <social.icon style={{ width: '16px', height: '16px' }} />
             </a>
+            <div className="tooltip" style={{
+              position: 'absolute',
+              bottom: '60px',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              backgroundColor: 'rgba(0, 0, 0, 0.8)',
+              color: 'white',
+              padding: '6px 12px',
+              borderRadius: '6px',
+              fontSize: '12px',
+              fontWeight: '500',
+              whiteSpace: 'nowrap',
+              opacity: '0',
+              transition: 'opacity 0.2s ease',
+              pointerEvents: 'none',
+              zIndex: 1001
+            }}>
+              {social.name}
+            </div>
           </div>
         ))}
       </div>
