@@ -88,7 +88,7 @@ const Resume = () => {
                         alignItems: 'center'
                     }}>
                         <a
-                            href="/resume.pdf"
+                            href="/Daniel McCarragher Resume.pdf"
                             download
                             style={{
                                 display: 'inline-flex',
