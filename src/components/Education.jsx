@@ -12,8 +12,8 @@ const Education = () => {
 
             <div style={{
                 display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
+                flexDirection: 'column',
+                gap: '1rem',
                 marginBottom: '1rem'
             }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -42,22 +42,23 @@ const Education = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{ fontSize: '1em', color: 'rgba(255, 255, 255, 0.7)' }}>
+
+                <div style={{ fontSize: '0.9em', color: 'rgba(255, 255, 255, 0.7)', fontWeight: '500' }}>
                     JAN 2023 - JUN 2026
                 </div>
-            </div>
 
-            <div style={{ marginLeft: '66px', marginTop: '0.5rem' }}>
-                <ul style={{
-                    margin: '0',
-                    padding: '0',
-                    listStyle: 'none',
-                    fontSize: '0.9em',
-                    color: 'rgba(255, 255, 255, 0.6)'
-                }}>
-                    <li style={{ marginBottom: '0.3rem' }}>• GPA: 3.9 (High Honors)</li>
-                    <li style={{ marginBottom: '0.3rem' }}>• Dean's List: 4x Honoree (Fall 2023, Winter 2024, Fall 2024, Winter 2025)</li>
-                </ul>
+                <div style={{ marginTop: '0.5rem' }}>
+                    <ul style={{
+                        margin: '0',
+                        padding: '0',
+                        listStyle: 'none',
+                        fontSize: '0.9em',
+                        color: 'rgba(255, 255, 255, 0.6)'
+                    }}>
+                        <li style={{ marginBottom: '0.3rem' }}>• GPA: 3.9 (High Honors)</li>
+                        <li style={{ marginBottom: '0.3rem' }}>• Dean's List: 4x Honoree (Fall 2023, Winter 2024, Fall 2024, Winter 2025)</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
