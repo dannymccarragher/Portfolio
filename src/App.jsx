@@ -5,9 +5,14 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import SocialDock from './components/SocialDock'
+import Resume from './components/Resume'
+import Leadership from './components/Leadership'
+import ascii from './scripts/ascii'
 
 function App() {
 
+  ascii();
+  
   return (
     <>
       {/* Animated Starfield Background */}
@@ -23,6 +28,9 @@ function App() {
       <Skills />
       <Projects />
       <SocialDock />
+      <Leadership />
+      <Resume />
+      
     </>
   )
 }

@@ -11,8 +11,8 @@ const Experience = () => {
 
             <div style={{
                 display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
+                flexDirection: 'column',
+                gap: '1rem',
                 marginBottom: '1rem'
             }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -41,7 +41,8 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{ fontSize: '1em', color: 'rgba(255, 255, 255, 0.7)' }}>
+
+                <div style={{ fontSize: '0.9em', color: 'rgba(255, 255, 255, 0.7)', fontWeight: '500' }}>
                     JUN 2025 - SEP 2025
                 </div>
             </div>
