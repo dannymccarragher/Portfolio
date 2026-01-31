@@ -90,7 +90,7 @@ const Resume = () => {
                     }}>
                         <a
                             href="/Daniel McCarragher Resume.pdf"
-                            download
+                            target='_blank'
                             style={{
                                 display: 'inline-flex',
                                 alignItems: 'center',
