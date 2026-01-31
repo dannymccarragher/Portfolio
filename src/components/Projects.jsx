@@ -146,7 +146,7 @@ const Projects = () => {
                                         width="16"
                                         height="16"
                                         viewBox="0 0 24 24"
-                                        fill={`#${siGithub.hex}`}
+                                        fill="#FFFFFF"
                                         style={{ marginRight: '0.3rem' }}
                                     >
                                         <path d={siGithub.path} />
