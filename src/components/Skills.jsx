@@ -44,20 +44,21 @@ const Skills = () => {
                             alignItems: 'center',
                             gap: '0.5rem',
                             padding: '0.6rem 0.8rem',
-                            backgroundColor: 'white',
+                            backgroundColor: '#F8FAFC',
                             borderRadius: '8px',
                             fontSize: '0.9em',
                             fontWeight: '500',
-                            color: '#1a1a1a',
+                            color: '#0F172A',
                             transition: 'all 0.2s ease',
-                            cursor: 'default'
+                            cursor: 'default',
+                            border: '1px solid rgba(37, 99, 235, 0.1)'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#f0f0f0';
+                            e.target.style.backgroundColor = 'rgba(37, 99, 235, 0.1)';
                             e.target.style.transform = 'translateY(-1px)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = 'white';
+                            e.target.style.backgroundColor = '#F8FAFC';
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >

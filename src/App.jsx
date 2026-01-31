@@ -15,21 +15,15 @@ function App() {
   
   return (
     <>
-      {/* Animated Starfield Background */}
-      <div className="stars"></div>
-      <div className="shooting-star"></div>
-      <div className="shooting-star"></div>
-      <div className="shooting-star"></div>
-
       <Intro />
       <Education />
       <Experience />
       <Research />
       <Skills />
+      <Resume />
       <Projects />
       <SocialDock />
       <Leadership />
-      <Resume />
       
     </>
   )

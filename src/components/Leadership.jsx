@@ -36,9 +36,9 @@ const Leadership = () => {
                 <div key={index} style={{
                     marginBottom: '1.5rem',
                     padding: '2rem',
-                    background: 'linear-gradient(135deg, rgba(100, 108, 255, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%)',
+                    background: '#F8FAFC',
                     borderRadius: '16px',
-                    border: '1px solid rgba(100, 108, 255, 0.2)',
+                    border: '1px solid rgba(37, 99, 235, 0.2)',
                     position: 'relative',
                     overflow: 'hidden'
                 }}>
@@ -49,7 +49,7 @@ const Leadership = () => {
                         right: '-50px',
                         width: '100px',
                         height: '100px',
-                        background: 'radial-gradient(circle, rgba(100, 108, 255, 0.1) 0%, transparent 70%)',
+                        background: 'radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%)',
                         borderRadius: '50%'
                     }}></div>
 
@@ -68,14 +68,14 @@ const Leadership = () => {
                                     margin: '0 0 0.3rem 0',
                                     fontSize: '1.3em',
                                     fontWeight: '600',
-                                    color: 'white'
+                                    color: '#0F172A'
                                 }}>
                                     {activity.title}
                                 </h3>
                                 <p style={{
                                     margin: '0',
                                     fontSize: '1em',
-                                    color: 'rgba(255, 255, 255, 0.7)',
+                                    color: '#475569',
                                     fontWeight: '500'
                                 }}>
                                     {activity.membership}
@@ -83,12 +83,12 @@ const Leadership = () => {
                             </div>
                             <div style={{
                                 fontSize: '0.9em',
-                                color: 'rgba(255, 255, 255, 0.6)',
+                                color: '#475569',
                                 fontWeight: '500',
-                                backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                                backgroundColor: 'rgba(37, 99, 235, 0.1)',
                                 padding: '0.3rem 0.7rem',
                                 borderRadius: '6px',
-                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                border: '1px solid rgba(37, 99, 235, 0.2)',
                                 alignSelf: 'flex-start'
                             }}>
                                 {activity.date}
@@ -98,7 +98,7 @@ const Leadership = () => {
                         <p style={{
                             margin: '0',
                             fontSize: '0.95em',
-                            color: 'rgba(255, 255, 255, 0.8)',
+                            color: '#0F172A',
                             lineHeight: '1.5'
                         }}>
                             {activity.description}

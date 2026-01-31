@@ -28,22 +28,21 @@ const Education = () => {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        fontSize: '20px',
-                        color: 'white'
+                        fontSize: '20px'
                     }}>
 
                     </div>
                     <div>
-                        <div style={{ fontSize: '1.2em', fontWeight: '600', color: 'white', marginBottom: '0.2rem' }}>
+                        <div style={{ fontSize: '1.2em', fontWeight: '600', color: '#0F172A', marginBottom: '0.2rem' }}>
                             Green River College
                         </div>
-                        <div style={{ fontSize: '1em', color: 'rgba(255, 255, 255, 0.7)' }}>
+                        <div style={{ fontSize: '1em', color: '#475569' }}>
                             B.A.S Software Development
                         </div>
                     </div>
                 </div>
 
-                <div style={{ fontSize: '0.9em', color: 'rgba(255, 255, 255, 0.7)', fontWeight: '500' }}>
+                <div style={{ fontSize: '0.9em', color: '#475569', fontWeight: '500' }}>
                     JAN 2023 - JUN 2026
                 </div>
 
@@ -53,7 +52,7 @@ const Education = () => {
                         padding: '0',
                         listStyle: 'none',
                         fontSize: '0.9em',
-                        color: 'rgba(255, 255, 255, 0.6)'
+                        color: '#475569'
                     }}>
                         <li style={{ marginBottom: '0.3rem' }}>• GPA: 3.9 (High Honors)</li>
                         <li style={{ marginBottom: '0.3rem' }}>• Dean's List: 4x Honoree (Fall 2023, Winter 2024, Fall 2024, Winter 2025)</li>

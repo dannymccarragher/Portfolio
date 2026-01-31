@@ -73,13 +73,14 @@ const SocialDock = () => {
         alignItems: 'center',
         justifyContent: 'center',
         gap: '8px',
-        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        backgroundColor: '#F8FAFC',
         backdropFilter: 'blur(10px)',
-        border: '1px solid rgba(255, 255, 255, 0.2)',
+        border: '1px solid rgba(37, 99, 235, 0.2)',
         borderRadius: '16px',
         padding: '8px',
         height: '58px',
-        minWidth: 'fit-content'
+        minWidth: 'fit-content',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)'
       }}>
         {DATA.navbar.map((item) => (
           <div key={item.label} style={{
@@ -122,7 +123,7 @@ const SocialDock = () => {
                 color: 'currentColor',
                 transition: 'background-color 0.2s'
               }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+              onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(37, 99, 235, 0.1)'}
               onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
             >
               <item.icon style={{ width: '16px', height: '16px' }} />
@@ -132,7 +133,7 @@ const SocialDock = () => {
               bottom: '60px',
               left: '50%',
               transform: 'translateX(-50%)',
-              backgroundColor: 'rgba(0, 0, 0, 0.8)',
+              backgroundColor: '#0F172A',
               color: 'white',
               padding: '6px 12px',
               borderRadius: '6px',
@@ -153,7 +154,7 @@ const SocialDock = () => {
         <div style={{
           width: '1px',
           height: '40px',
-          backgroundColor: 'rgba(255, 255, 255, 0.3)',
+          backgroundColor: 'rgba(37, 99, 235, 0.3)',
           margin: '0 8px',
           flexShrink: 0
         }}></div>
@@ -197,7 +198,7 @@ const SocialDock = () => {
                 color: 'currentColor',
                 transition: 'background-color 0.2s'
               }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+              onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(37, 99, 235, 0.1)'}
               onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
             >
               <social.icon style={{ width: '16px', height: '16px' }} />
@@ -207,7 +208,7 @@ const SocialDock = () => {
               bottom: '60px',
               left: '50%',
               transform: 'translateX(-50%)',
-              backgroundColor: 'rgba(0, 0, 0, 0.8)',
+              backgroundColor: '#0F172A',
               color: 'white',
               padding: '6px 12px',
               borderRadius: '6px',

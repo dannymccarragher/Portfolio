@@ -27,23 +27,32 @@ const Experience = () => {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        fontSize: '20px',
-                        color: 'white'
+                        fontSize: '20px'
                     }}>
 
                     </div>
                     <div>
-                        <div style={{ fontSize: '1.2em', fontWeight: '600', color: 'white', marginBottom: '0.2rem' }}>
+                        <div style={{ fontSize: '1.2em', fontWeight: '600', color: '#0F172A', marginBottom: '0.2rem' }}>
                             Nummo
                         </div>
-                        <div style={{ fontSize: '1em', color: 'rgba(255, 255, 255, 0.7)' }}>
+                        <div style={{ fontSize: '1em', color: '#475569' }}>
                             Software Engineer Intern
                         </div>
                     </div>
                 </div>
 
-                <div style={{ fontSize: '0.9em', color: 'rgba(255, 255, 255, 0.7)', fontWeight: '500' }}>
-                    JUN 2025 - SEP 2025
+                <div>
+                    <div style={{ fontSize: '0.9em', color: '#475569', fontWeight: '500', marginBottom: '0.1rem' }}>
+                        JUN 2025 - SEP 2025
+                    </div>
+                    <p style={{
+                        margin: '0',
+                        fontSize: '0.95em',
+                        color: '#0F172A',
+                        lineHeight: '1.5'
+                    }}>
+                        Nummo is an AI-powered financial modeling platform that automates spreadsheet workflows for investment banking and private equity professionals
+                    </p>
                 </div>
             </div>
         </div>

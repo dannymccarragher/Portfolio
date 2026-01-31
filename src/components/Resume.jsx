@@ -11,11 +11,11 @@ const Resume = () => {
             <h2 style={{ margin: '0 0 1.2rem 0', textAlign: 'left', fontSize: '1.5em', fontWeight: '600' }}>Resume</h2>
 
             <div style={{
-                marginBottom: '8rem',
+                marginBottom: '1rem',
                 padding: '2rem',
-                background: 'linear-gradient(135deg, rgba(100, 108, 255, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%)',
+                background: '#F8FAFC',
                 borderRadius: '16px',
-                border: '1px solid rgba(100, 108, 255, 0.2)',
+                border: '1px solid rgba(37, 99, 235, 0.2)',
                 position: 'relative',
                 overflow: 'hidden'
             }}>
@@ -26,7 +26,7 @@ const Resume = () => {
                     right: '-50px',
                     width: '100px',
                     height: '100px',
-                    background: 'radial-gradient(circle, rgba(100, 108, 255, 0.1) 0%, transparent 70%)',
+                    background: 'radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%)',
                     borderRadius: '50%'
                 }}></div>
 
@@ -44,12 +44,13 @@ const Resume = () => {
                             width: '60px',
                             height: '60px',
                             borderRadius: '12px',
-                            background: 'linear-gradient(135deg, #646cff 0%, #764ba2 100%)',
+                            background: '#2563EB',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
                             fontSize: '1.5rem',
-                            boxShadow: '0 4px 15px rgba(100, 108, 255, 0.3)'
+                            boxShadow: '0 4px 15px rgba(37, 99, 235, 0.3)',
+                            color: 'white'
                         }}>
                             <File />
                         </div>
@@ -58,16 +59,16 @@ const Resume = () => {
                                 margin: '0 0 0.3rem 0',
                                 fontSize: '1.3em',
                                 fontWeight: '600',
-                                color: 'white'
+                                color: '#0F172A'
                             }}>
                                 Resume
                             </h3>
                             <p style={{
                                 margin: '0',
                                 fontSize: '0.9em',
-                                color: 'rgba(255, 255, 255, 0.7)'
+                                color: '#475569'
                             }}>
-                                PDF Document • Updated 2025
+                                PDF Document • Updated February 2026
                             </p>
                         </div>
                     </div>
@@ -75,7 +76,7 @@ const Resume = () => {
                     <p style={{
                         margin: '0 0 1.5rem 0',
                         fontSize: '1em',
-                        color: 'rgba(255, 255, 255, 0.9)',
+                        color: '#0F172A',
                         lineHeight: '1.6'
                     }}>
                         Resume featuring my work experience, technical skills,
@@ -95,24 +96,26 @@ const Resume = () => {
                                 alignItems: 'center',
                                 gap: '0.7rem',
                                 padding: '0.8rem 1.8rem',
-                                background: 'linear-gradient(135deg, #646cff 0%, #764ba2 100%)',
+                                background: '#2563EB',
                                 color: 'white',
                                 textDecoration: 'none',
                                 borderRadius: '10px',
                                 fontSize: '1em',
                                 fontWeight: '600',
                                 transition: 'all 0.3s ease',
-                                boxShadow: '0 4px 20px rgba(100, 108, 255, 0.3)',
+                                boxShadow: '0 4px 20px rgba(37, 99, 235, 0.3)',
                                 border: 'none',
                                 cursor: 'pointer'
                             }}
                             onMouseEnter={(e) => {
                                 e.target.style.transform = 'translateY(-2px)';
-                                e.target.style.boxShadow = '0 8px 30px rgba(100, 108, 255, 0.4)';
+                                e.target.style.boxShadow = '0 8px 30px rgba(37, 99, 235, 0.4)';
+                                e.target.style.background = '#1d4ed8';
                             }}
                             onMouseLeave={(e) => {
                                 e.target.style.transform = 'translateY(0)';
-                                e.target.style.boxShadow = '0 4px 20px rgba(100, 108, 255, 0.3)';
+                                e.target.style.boxShadow = '0 4px 20px rgba(37, 99, 235, 0.3)';
+                                e.target.style.background = '#2563EB';
                             }}
                         >
                             <span>Download Resume</span>
