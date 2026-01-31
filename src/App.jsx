@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import SocialDock from './components/SocialDock'
 import Resume from './components/Resume'
 import Leadership from './components/Leadership'
+import ProfessionalFeedback from './components/ProfessionalFeedback'
 import ascii from './scripts/ascii'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Intro />
       <Education />
       <Experience />
+      <ProfessionalFeedback />
       <Research />
       <Skills />
       <Resume />

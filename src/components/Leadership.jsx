@@ -27,10 +27,10 @@ const Leadership = () => {
         <div style={{
             maxWidth: '800px',
             margin: '0 auto',
-            padding: '0.5rem 1rem',
+            padding: '0.5rem 1rem 6rem 1rem',
             textAlign: 'left'
         }}>
-            <h2 style={{ margin: '0 0 0.8rem 0', textAlign: 'left', fontSize: '1.5em', fontWeight: '600' }}>Leadership</h2>
+            <h2 style={{ margin: '0 0 0.8rem 0', textAlign: 'left', fontSize: '1.5em', fontWeight: '600' }}>Activies and Leadership </h2>
 
             {ACTIVITIES.map((activity, index) => (
                 <div key={index} style={{

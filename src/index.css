@@ -93,3 +93,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* PDF / feedback link styled as button */
+a.feedback-pdf-btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #2563EB;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+a.feedback-pdf-btn:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #FFFFFF;
+}
