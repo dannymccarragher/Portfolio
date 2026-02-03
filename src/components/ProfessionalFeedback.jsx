@@ -8,6 +8,12 @@ const ProfessionalFeedback = () => {
             summary: `I am writing to recommend Daniel McCarragher, who worked with me at Nummo, an AI startup
 building an AI-native spreadsheet for modern financial modeling. I am a Founding Engineer at Nummo, and I worked closely with Daniel for 3.5 months during a formative phase of our company.At the time, our engineering team consisted of two developers, and we were starting a major
 architectural refactor. We had initially built much of the application with a Python backend, but as the product grew, we decided to migrate to a TypeScript architecture to better support a large, native application.`,
+        },
+        {
+            name: "Austin Homolka",
+            title: "Previous Owner of Park Place Properties",
+            file: "/Letter of Recommendation for Danny McCarragher.pdf",
+            summary: "If you’re considering hiring Danny—whether that’s full-time, contract work, or even just for a single project—honestly, you should feel extremely good about that decision. Danny is one of the few people in my life that I can always count on. There are only a handful of people like that in my life, and he’s one of them."
         }
     ]
 
